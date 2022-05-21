@@ -5,7 +5,7 @@ const DynamicComponent = (props) => {
   return (
     <div>
       <Head>
-        <title>Dynamic Component</title>
+        <title>{props.data.title}</title>
         <meta name="description" content="Dynamic Component" />
       </Head>
       <h1>{props.data.title}</h1>

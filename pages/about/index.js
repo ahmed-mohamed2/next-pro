@@ -5,8 +5,8 @@ const About = (props) => {
   return (
     <div>
       <Head>
-        <title>About Component</title>
-        <meta name="description" content="About Project" />
+        <title>About us</title>
+        <meta name="description" content="About us" />
       </Head>
       {props?.data?.map((i) => (
         <div key={i.id}>

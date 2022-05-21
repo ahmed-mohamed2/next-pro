@@ -116,10 +116,12 @@ export const Footer = () => {
       </div>
 
       <div className="text-center p-3">
-        © 2022 Copyright:
+        © 2022 Copyright-
         <a
+          target="_blank"
+          rel="noreferrer"
           className="text-dark text-decoration-none"
-          href="https://mdbootstrap.com/"
+          href="https://www.teeela.com/en/"
         >
           teeela.com
         </a>
